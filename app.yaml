@@ -1,0 +1,8 @@
+env: standard
+service: todo-client
+runtime: nodejs8
+instance_class: B1
+manual_scaling:
+  instances: 1
+env_variables:
+  NODE_ENV: production
